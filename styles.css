@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background: #f8fafc; }
+.navbar .btn { border-radius: 10px; }
+.card { border-radius: 16px; }
+.table thead th.sortable { cursor: pointer; user-select: none; }
+.table-hover tbody tr:hover { background-color: #f6f9ff; }
+.table.compact > :not(caption) > * > * { padding: .35rem .5rem; }
+
+/* Row highlights */
+tr.low-stock { background-color: #fff8e6; }
+tr.out-stock { background-color: #ffeaea; }
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .navbar-brand { font-size: 1rem; }
+}
